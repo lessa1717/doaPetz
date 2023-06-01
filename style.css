@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    /* background-color: red; */
+    border-bottom: 3px  solid red;
+}
+
+.logoDoaPetz{
+    /* background-color: aquamarine; */
+    box-sizing: 10px;
+    height: 40px;
+    display: flex;
+   justify-content:space-between;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: brown; */
+  
+
+
+}
+
+
+.grid{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo1{
+    margin-top: 10px;
+    width: 100px;
+    height: 20px;
+
+}
+
+
+.botoes-E-C{
+    margin-top: 10px;
+    font-size: 15px;
+
+    
+} 
+   
+    
+
+.botoes-E-C input:nth-child(2)  {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: orange;
+
+}
