@@ -1,54 +1,127 @@
-*{
+* {
     margin: 0px;
     border: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-header{
+
+header {
     /* background-color: red; */
-    border-bottom: 3px  solid red;
+    border-bottom: 3px solid red;
 }
 
-.logoDoaPetz{
+.logoDoaPetz {
     /* background-color: aquamarine; */
     box-sizing: 10px;
-    height: 40px;
+    height: 70px;
     display: flex;
-   justify-content:space-between;
+    justify-content: space-between;
     /* border-width: 3px;
     border-style: solid;
     border-color: brown; */
-  
+
 
 
 }
 
 
-.grid{
+.grid {
     max-width: 1400px;
     width: 90%;
     margin: 0 auto;
 }
 
-.logo1{
-    margin-top: 10px;
-    width: 100px;
-    height: 20px;
+.logo1 {
+    margin-top: 26px;
+    width: 120px;
+    height: 27px;
 
 }
 
 
-.botoes-E-C{
-    margin-top: 10px;
+.botoes-E-C {
+    width: 140px;
+    display: flex;
+    margin-top: 25px;
     font-size: 15px;
+    justify-content: space-between;
 
-    
-} 
-   
-    
 
-.botoes-E-C input:nth-child(2)  {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: orange;
+}
 
+.botoes-E-C a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    ;
+}
+
+
+
+.botoes-E-C a:nth-child(2) {
+
+    color: orange;
+
+}
+
+
+
+h1 {
+    display: flex;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    /* margin-bottom: 250px; */
+    width: 650px;
+
+}
+
+.segundo_bloco {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 50px;
+}
+
+
+
+.texto_informativo {
+
+    width: 48%;
+
+}
+
+
+
+
+.texto_informativo p {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+
+.botao_encontrarPet {
+
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #FF9922;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 15px 50px;
+
+    border-radius: 13px;
+
+
+
+}
+
+.imagemPets {
+
+
+    width: 50%;
 }
