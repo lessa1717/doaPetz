@@ -139,23 +139,26 @@ h1 {
 h2 {
 
 
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Raleway';
     font-size: 46px;
-    width: 700px;
+    width: 645px;
     margin: 0 auto;
     margin-bottom: 50px;
     /*margin-left: 450px; */
 }
 
-.cartoes{
+.cartoes {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 50px;
+
 }
- .cartao1, .cartao2{
+
+.cartao1,
+.cartao2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -166,39 +169,53 @@ h2 {
     width: 400px;
     height: 400px;
     border-radius: 10px;
- }  
+    font-family: 'Raleway';
+}
 
 
- .terceiro_bloco{
-    
-        display: flex;
-        /* justify-content: space-between; */
-        margin-top: 50px;
-        flex-direction: column;
-        font-family: 'Raleway', sans-serif;
-        margin-bottom: 30px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 22px;
-        line-height: 33px;
-    }
+.vermais1 {
+    color: #A944FF
+}
 
- .logos_menores{
-    margin-right: 50px;
+.vermais2 {
+    color: #0088AE;
+}
+
+
+.terceiro_bloco {
+    padding: 30px;
+    padding-left: 70px;
+    width: 500px;
     display: flex;
-    width: 60px;
-    height: 60px;
-    }   
-
-
-
- 
-
-
-   
+    font-size: 18px;
+    gap: 20px;
+    flex-direction: column;
+}
 
 
 
 
-    
-   
+.logos_section3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50px;
+}
+
+
+
+.logos_menores1 {
+    /* display: flex;
+        justify-content: right;
+        margin-left: 500px;
+        align-items: center; */
+
+
+}
+
+.logos_menores2 {
+    /* display: flex;
+    justify-content: right;
+    margin-left: 500px;
+    align-items: center; */
+}
