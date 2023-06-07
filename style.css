@@ -182,40 +182,138 @@ h2 {
 }
 
 
+.terceira_secao {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.terceiro_secao {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .terceiro_bloco {
-    padding: 30px;
-    padding-left: 70px;
     width: 500px;
     display: flex;
     font-size: 18px;
-    gap: 20px;
+    font-family: 'Raleway';
     flex-direction: column;
 }
-
-
-
 
 .logos_section3 {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    width: 50px;
+    width: 30%;
+    height: 300px;
+    justify-content: space-between;
 }
 
 
-
-.logos_menores1 {
-    /* display: flex;
-        justify-content: right;
-        margin-left: 500px;
-        align-items: center; */
-
-
-}
-
+.logos_menores1,
 .logos_menores2 {
-    /* display: flex;
-    justify-content: right;
-    margin-left: 500px;
-    align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway';
+
+}
+
+
+.item_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+
+}
+
+
+.secao_contato{
+    
+    background-color: #FF8800;
+    padding-top: 50px;
+    
+
+
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagem_contato{
+    
+    width: 400px;
+}
+.bloco_contato{
+    display: flex;
+    margin-left: 900px;
+    flex-direction: column;
+    width: 30%;
+    height: 300px;
+    
+   
+}
+
+
+
+.botao_enviar{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #FF9922;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 15px 45px;
+    width: 150px;
+    border-radius: 13px;
+}
+
+footer{
+    background-color: #0088AE;
+    display: flex;
+    height: 150px;
+    
+
+}
+.footer_{
+    
+    
+}
+
+.logoDoaPetz2 {
+    /* background-color: aquamarine; */
+    box-sizing: 10px;
+    height: 70px;
+    display: flex;
+    
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: brown; */
+}
+
+.logo2 {
+    display: flex;
+    margin-top: 0px;
+    width: 120px;
+    height: 27px;
+
+}
+
+.copiryght{
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.logos-footer{
+    
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
 }
